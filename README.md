@@ -1,10 +1,10 @@
 # Airline Delay Analysis Using Python
 
-## 📌 Project Overview
-This project focuses on analyzing airline flight delay data to identify key factors contributing to delays. 
-The analysis helps understand delay patterns across airlines, time periods, and operational conditions.
+## Project Overview
+This project focuses on analyzing airline flight delay data to identify trends and factors contributing to delays.
+The objective is to derive insights that can help improve airline operations and customer satisfaction.
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 - Python
 - Pandas
 - NumPy
@@ -12,35 +12,38 @@ The analysis helps understand delay patterns across airlines, time periods, and 
 - Seaborn
 - Jupyter Notebook
 
-## 📊 Dataset
-Airline flight performance dataset containing information such as:
-- Flight timings
+## Dataset
+The dataset contains airline flight information including:
+- Flight schedules
 - Delay duration
 - Airline details
 - Operational factors
 
 (Source: Public airline dataset)
 
-## 🔍 Analysis Performed
-- Data cleaning and preprocessing
-- Handling missing values
-- Exploratory Data Analysis (EDA)
-- Visualization of delay trends by airline and time
-- Statistical insights on delay causes
+## Data Cleaning & Preparation
+- Handled missing values
+- Removed duplicates
+- Converted data types for analysis
 
-## 📈 Key Insights
-- Identified peak time periods with higher delays
-- Compared average delays across airlines
-- Analyzed common reasons contributing to delays
+## Exploratory Data Analysis (EDA)
+- Delay distribution analysis
+- Airline-wise delay comparison
+- Time-based trend analysis
+- Visual insights using plots
 
-## 🎯 Business Value
-This analysis can help airlines:
-- Improve scheduling efficiency
-- Reduce operational delays
-- Enhance customer satisfaction
+## Key Insights
+- Peak hours show higher delay frequency
+- Some airlines have consistently higher delays
+- Operational factors significantly affect delays
 
-## 📁 Project Structure
+## Business Impact
+- Helps airlines optimize scheduling
+- Supports data-driven operational decisions
+- Improves service reliability
+
+## Project Structure
 - Airline_Delay_Analysis_Using_Python.ipynb
 
-## ✅ Conclusion
-The project demonstrates practical data analysis skills including data cleaning, visualization, and insight generation using Python.
+## Conclusion
+This project demonstrates practical data analysis skills including data cleaning, EDA, and insight generation.
